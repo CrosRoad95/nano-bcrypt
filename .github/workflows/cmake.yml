@@ -28,7 +28,7 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: socket_core ${{ matrix.os }}
+        name: bcrypt ${{ matrix.os }}
         path: |
           ${{ github.workspace }}/**/*.so
           ${{ github.workspace }}/**/*.dll
